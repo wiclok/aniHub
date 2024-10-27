@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main {
+  background: linear-gradient(#8B37EB, #6746EA, #5051EB);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  height: 10%;
+  width: 80%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.buttonLogin{
+  margin: 17px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+.buttonLogin:hover{
+  background-color: #eaeaea;
+  color: #3a3a3a;
+  transition: all .3s ease-in-out;
+}
+
+.buttonRegister{
+  background: #F4F4F5;
+  color: #18181B;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.buttonRegister:hover{
+  background-color: #eaeaea;
+  color: #3a3a3a;
+}
+
+.heading{
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.Head {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.subtitles {
+  font-size: 18px;
+  color: #fff;
+}
+
+.gettingStarted {
+  height: 40px;
+  width: 170px;
+  margin-top: 30px;
+  background-color: #fdc00a;
+  color: #000;
+  font-size: small;
+  font-weight: 500;
+  padding-top: 9px;
+  border-radius: 5px;
+  border: none;
+  padding-top: 5px;
+}
+
+.gettingStarted:hover {
+  background-color: #daa60c;
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
+  color: #000;
+  padding-top: -20px;
+}
+
+.banner {
+  height: 30%;
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #000;
+  padding-left: 40px;
+}
+
+.card {
+  background: #8e6cff;
+  border: 1px solid #000;
+  width: 80%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  color: #FACC15;
+  margin-top: 17px;
+}
+
+.title {
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  
+}
+
+.description {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
