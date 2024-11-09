@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .main {
-  background: linear-gradient(#9233EA, #5051EB);
-  height: 100vh;
+  background: linear-gradient(#9233EA, #5051EB, #2F5EEB);
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,5 +166,85 @@
 
   .card {
     max-width: 100%;
+  }
+}
+
+.TopAnimes {
+  height: 400px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.TopAnimes h1 {
+  font-size: 27px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.TopAnimes p {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.cardWrapper {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardAnime {
+  height: 90%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5269ED;
+  border-radius: 7px;
+  & .cardAnimeImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 7px 7px 0 0;
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  & .cardAnimeData {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & h2 {
+      font-size: 1em;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 5px;
+      line-height: 1.1;
+    }
+    & p {
+      color: white;
+      font-size: 1em;
+      text-align: start;
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
   }
 }
