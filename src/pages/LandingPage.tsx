@@ -1,9 +1,9 @@
 import { FC } from "react"
-import { Nav } from "../../components/LandingPage/Nav"
+import { Nav } from "../components/LandingPage/Nav"
 import styles from '../../styles/LandingPage.module.css'
-import { Heading } from "../../components/LandingPage/Heading"
-import { Banner } from "../../components/LandingPage/Banner"
-import { TopAnimes } from "../../components/LandingPage/TopAnimes"
+import { Heading } from "../components/LandingPage/Heading"
+import { Banner } from "../components/LandingPage/Banner"
+import { TopAnimes } from "../components/LandingPage/TopAnimes"
 
 export const LandingPage:FC = () => {
   return (
